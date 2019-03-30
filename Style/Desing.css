@@ -1,0 +1,43 @@
+*
+{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+img{
+width: 5%;
+}
+nav{
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  background-color: purple;
+  padding: 5px;
+
+}
+.BarToggle{
+  display: none;
+}
+nav li{
+  display: inline;
+
+}
+
+nav a{
+  color: white;
+  display: inline-block;
+  padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+  nav{
+overflow: hidden;
+background-color: purple;
+position: relative;
+  }
+  img{width: 15%;}
+  ul{
+    display: none;
+  }
+
+}
